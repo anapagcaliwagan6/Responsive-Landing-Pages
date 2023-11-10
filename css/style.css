@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-image: url(img/dogbg.jpg);
+    
+}
+
+.nav{
+    height: 110px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    padding: 20px 100px;
+
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+    padding: 20px 20px;
+}
+
+.nav ul li{
+    list-style:none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px 13px;
+}
+
+
+.nav ul li a:hover{
+    background: aqua;
+    border-radius: 2px;
+
+}
+.body .center{
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.body {
+    background-color: beige;
+  }
+  
+.center h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+  }
+
+.center h2{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.details{
+    background-color: beige;
+    min-height: 100em;
+
+}
+
+.leftpane{
+    background-color: aqua;
+    width: 47%;
+    display: block;
+    padding: 1em;
+    float: left;
+    text-align: center;
+}
+
+.rightpane{
+    background-color: aqua;
+    width: 47%;
+    display: block;
+    padding: 1em;
+    float: right;
+    text-align: center;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: pink;
+    margin: 0px;
+    
+}
+
+header * {
+    display:contents;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin: 50px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    
+}
+
+.header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+   
+}
